@@ -7,6 +7,7 @@ def oxford_comma(array)
     elsif array.length >= 3
 
 last_item = ", and #{array.pop}"
+binding.pry
 string_variable = array.join(", ")
 string_variable <<  last_item
 end
